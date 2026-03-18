@@ -1,7 +1,27 @@
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(44, 43, 41);
 }
 
 .h-page {
     display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    min-height: 100vh;
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.img1 {
+    background-image: url(Background\ Img.avif);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
