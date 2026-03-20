@@ -1,3 +1,4 @@
+/* FIgure out font soon*/
 body {
     background-color: rgb(44, 43, 41);
 }
@@ -8,6 +9,7 @@ body {
     /*justify-content: space-between;*/
     min-height: 100vh;
     color: aliceblue;
+    flex-wrap: wrap;
 }
 
 header {
@@ -19,9 +21,29 @@ header {
 .img1 {
     background-image: url(Background\ Img.avif);
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    background-position: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+
+/* change colours later just need to see how big the box is */
+/* how does borders work ):*/
+.about-me {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 550px;
+    height: 200px;
+    color: black;
 }
