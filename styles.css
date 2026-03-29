@@ -4,10 +4,16 @@ Project 1 css line 98
 */
 
 body {
-    background-color: rgb(51, 48, 51);
+    background-color: rgb(41, 39, 51);
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* same for everything above  */
 .h-page {
     display: flex;
     flex-direction: column;
@@ -15,11 +21,6 @@ body {
     color: aliceblue;
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
 }
 
 .back-img1 {
@@ -60,8 +61,6 @@ header {
     font-size: 25px;
 }
 
-/* move this next to the about me */
-/* it will go text img of the portfolio */
 .more {
     align-self: center;
 }
@@ -93,6 +92,12 @@ header {
 }
 
 /* Project 1 beging */
+.flex-format1 {
+    display: flex;
+    gap: 5vp;
+    flex-wrap: wrap;
+}
+
 .h-page2 {
     display: flex;
     flex-direction: column;
@@ -104,8 +109,8 @@ header {
 
 .back-img2 {
     background-image: url(background-img2.jpg);
-    width: 40%;
-    min-height: 47vh;
+    width: 35%;
+    min-height: 45vh;
     display: flex;
     background-position: center;
     align-items: center;
@@ -130,4 +135,45 @@ header {
     color: rgb(204, 201, 201);
     padding: 3vh;
     font-size: 15px;
+    flex-direction: row;
+}
+
+/* change formating for and move headings to middle of picture of coming soon */
+.Project-2-port1 {
+    width: 50%;
+    height: 39vh;
+    border-radius: 90px;
+    font-size: 36px;
+    color: rgb(204, 201, 201);
+    font-size: 15px;
+}
+
+.port-img-p1 {
+    width: 50vh;
+    height: 60vh;
+    padding: 3vh;
+}
+
+.Project-3-port1 {
+    width: 50%;
+    height: 39vh;
+    border-radius: 90px;
+    font-size: 36px;
+    color: rgb(204, 201, 201);
+    font-size: 15px;
+
+}
+
+.Project-4-port1 {
+    width: 50%;
+    height: 39vh;
+    border-radius: 90px;
+    font-size: 36px;
+    color: rgb(204, 201, 201);
+    font-size: 15px;
+}
+
+.flexfix1 {
+    flex-direction: row;
+    display: flex;
 }
