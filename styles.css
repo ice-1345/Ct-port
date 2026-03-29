@@ -107,6 +107,11 @@ header {
     color: aliceblue;
 }
 
+.port-img-home {
+    width: 100vh;
+    height: 30vh;
+}
+
 .back-img2 {
     background-image: url(background-img2.jpg);
     width: 35%;
