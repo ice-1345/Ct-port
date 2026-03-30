@@ -58,14 +58,14 @@ header {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .more {
     align-self: center;
 }
 
-/*  move project 1 over*/
+
 .Project-1 {
     width: 103vh;
     height: 39vh;
@@ -74,6 +74,7 @@ header {
     color: rgb(204, 201, 201);
     padding: 3vh;
     font-size: 15px;
+    padding-left: 10vh;
 }
 
 .flex-format {
@@ -91,7 +92,7 @@ header {
     height: 32vh;
 }
 
-/* Project 1 beging */
+/* CSS for p1-website */
 .flex-format1 {
     display: flex;
     gap: 5vp;
