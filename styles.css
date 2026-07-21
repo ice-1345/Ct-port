@@ -26,7 +26,7 @@ header {
 .back-img1 {
     background-image: url(Background\ Img.avif);
     width: 100%;
-    min-height: 47vh;
+    height: 400px;
     background-size: cover;
     display: flex;
     background-position: center;
@@ -34,6 +34,7 @@ header {
     justify-content: center;
     flex-direction: column;
     border-radius: 30px;
+    padding: 10px;
 
 }
 
@@ -59,6 +60,7 @@ header {
     flex-direction: column;
     text-align: center;
     font-size: 20px;
+    padding: auto;
 }
 
 .more {
@@ -106,6 +108,7 @@ header {
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
+    padding-left: 20px;
 }
 
 .port-img-home {
@@ -134,8 +137,8 @@ header {
 }
 
 .Reflection {
-    width: 103vh;
-    height: 39vh;
+    width: 60%;
+    height: 300px;
     border-radius: 90px;
     font-size: 36px;
     color: rgb(204, 201, 201);
@@ -146,7 +149,7 @@ header {
 
 /* change formating for and move headings to middle of picture of coming soon */
 .Project-2-port1 {
-    width: 50%;
+    width: 100%;
     height: 39vh;
     border-radius: 90px;
     font-size: 36px;
@@ -160,26 +163,25 @@ header {
     padding: 3vh;
 }
 
-.Project-3-port1 {
-    width: 50%;
-    height: 39vh;
-    border-radius: 90px;
-    font-size: 36px;
-    color: rgb(204, 201, 201);
-    font-size: 15px;
-
-}
-
-.Project-4-port1 {
-    width: 50%;
-    height: 39vh;
-    border-radius: 90px;
-    font-size: 36px;
-    color: rgb(204, 201, 201);
-    font-size: 15px;
-}
-
 .flexfix1 {
     flex-direction: row;
     display: flex;
+}
+
+.embeded-1 {
+    width: 55%;
+    height: 800px;
+    border-radius: 30px;
+}
+
+.embed-2 {
+    width: 100%;
+    height: 750px;
+    padding-top: 30px;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+.Link-1 {
+    color: blue;
 }
